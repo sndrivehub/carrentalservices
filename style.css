@@ -1,0 +1,154 @@
+*
+{
+    margin : o;
+    padding : 0;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, white 100%, rgba(0,0,0,0.5)100%, url(./Images/logo1.jpg));
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}   
+body {
+    background-image: url(./car-rental-services/images/backgroundimage.jpg);
+   background-size: cover;       /* makes it fill the whole page */
+    background-repeat: no-repeat; /* prevents repeating */
+    background-position: center;  /* keeps image centered */
+    background-attachment: fixed; /* optional: creates parallax effect */
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width:200 px;
+    height: 70px;
+    float: left;
+}
+.menu{
+    width:650 px;
+    height: 30px;
+    float: left; 
+    
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-inline-start: 30px;
+    margin-right: 10px;
+    text-align:right;
+    margin-trim: initial;
+    margin-top: 5px;
+    font-size: 14px;
+    align-items: right;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    transition: o.4s ease-in-out;
+}
+ul li a:hover{
+    color: coral;
+}
+h1{
+    color:rgba(94, 23, 50, 0.829);
+    text-align: center;
+    
+}
+h2{
+    color:rgb(5, 79, 114);
+ align-items: right;
+ text-align: center;
+}
+h3{
+    color:rgb(218, 55, 26)
+    
+}
+h4{
+    color:rgb(4, 122, 20)
+
+}
+.logo{
+    float:left
+}
+P{
+    font-size:larger;
+    font-family:Lucida Calligraphy;
+    font-display:auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+card-container {
+  display: flex;
+  gap: 20px;
+  width: 100px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 380px;
+  
+}
+img{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+/* Menu stays same */
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+/* Push both buttons to right */
+.action-buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;   /* space between buttons */
+}
+
+/* WhatsApp button */
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Call button */
+.call-btn {
+  background: #25D366;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
